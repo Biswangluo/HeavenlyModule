@@ -13,13 +13,14 @@ public class MVPPersenter extends MVPContract.Presenter {
     @Override
     public void postData() {
         mModel.postData().subscribe(new RxSubscriber<BaseRespose<User>>(mContext, false) {
+
             @Override
-            protected void _onNext(BaseRespose<User> userBaseRespose) {
-//处理请求返回数据
+            public void _onNext(BaseRespose<User> userBaseRespose) {
+
             }
 
             @Override
-            protected void _onError(String message) {
+            public void _onError(String message) {
 
             }
         });

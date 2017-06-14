@@ -7,7 +7,6 @@ import com.xusangbo.basemoudle.base.BaseRespose;
 import com.xusangbo.basemoudle.base.BaseView;
 
 import io.reactivex.Flowable;
-import rx.Observable;
 
 /**
  * Created by boxu on 2017/4/24.

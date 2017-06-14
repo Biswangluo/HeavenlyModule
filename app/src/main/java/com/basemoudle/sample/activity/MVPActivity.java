@@ -24,7 +24,7 @@ public class MVPActivity extends BaseActivity<MVPPersenter, MVPModel> implements
 
     @Override
     public int getLayoutId() {
-        return R.layout.activity_main;
+        return R.layout.activity_mvp;
     }
 
     @Override
@@ -39,7 +39,6 @@ public class MVPActivity extends BaseActivity<MVPPersenter, MVPModel> implements
             @Override
             public void onClick(View view) {
                 mPresenter.postData();
-
             }
         });
     }
